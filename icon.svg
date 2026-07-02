@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#071A3F"/>
+    <stop offset="0.48" stop-color="#123E87"/>
+    <stop offset="0.7" stop-color="#F24A2E"/>
+    <stop offset="1" stop-color="#FFB33B"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFD166"/>
+    <stop offset="1" stop-color="#FF8A00"/>
+  </linearGradient>
+</defs>
+<rect width="1024" height="1024" rx="220" fill="url(#sky)"/>
+<circle cx="750" cy="610" r="115" fill="#FFD166" opacity="0.9"/>
+<path d="M80 760 C230 690, 340 790, 500 720 C640 660, 720 750, 944 660 L944 944 L80 944 Z" fill="#061735" opacity="0.9"/>
+<path d="M120 790 C280 720, 380 820, 520 755 C675 682, 760 790, 930 720" fill="none" stroke="#36BDF8" stroke-width="22" opacity="0.8"/>
+<path d="M180 690 L220 570 L260 690 Z M300 700 L350 520 L400 700 Z M485 700 L530 455 L575 700 Z M625 705 L660 565 L695 705 Z" fill="#061735"/>
+<path d="M705 700 L780 545 L855 700 Z" fill="#061735" opacity="0.9"/>
+<path d="M725 705 L818 705 M740 668 L803 668 M760 625 L790 625" stroke="#FFB33B" stroke-width="10" opacity="0.45"/>
+<text x="512" y="285" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="112" font-weight="900" fill="white" letter-spacing="8">HYROX</text>
+<text x="512" y="455" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="190" font-weight="900" fill="url(#gold)" letter-spacing="10">BKK</text>
+<text x="512" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="800" fill="white" letter-spacing="10">TRAVEL · RACE · RECOVER</text>
+<path d="M246 188 c60 -45 118 -10 74 44 c-20 30 -62 20 -78 -5 c-20 -30 -12 -30 4 -39z" fill="white" opacity="0"/>
+<path d="M750 250 l35 22 l-35 22 l-22 35 l-22 -35 l-35 -22 l35 -22 l22 -35z" fill="white"/>
+<text x="512" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="white">BANGKOK</text>
+<text x="512" y="942" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="800" fill="white" opacity="0.9">THAILAND 🇹🇭</text>
+</svg>

@@ -1,5 +1,13 @@
-# HYROX Bangkok Guide - Thai Guide Upgraded
+# HYROX Bangkok Guide - GitHub Pages with App Icon
 
-GitHub Pages ready version.
+Upload all files to your GitHub repository root:
 
-Upload `index.html` to repo root and publish via Settings → Pages.
+- index.html
+- manifest.json
+- icons/ folder
+
+Then publish with GitHub Pages:
+Settings → Pages → Deploy from a branch → main → /root.
+
+On iPhone:
+Open the GitHub Pages URL in Safari → Share → Add to Home Screen.

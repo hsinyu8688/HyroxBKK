@@ -1,30 +1,14 @@
 # HYROX Bangkok Guide
 
-Travel • Race • Recover
+This is the GitHub Pages ready version.
 
-## Local Preview
-```bash
-npm install
-npm run dev
-```
+## How to publish
+1. Upload `index.html` to your GitHub repository root.
+2. Go to Repository → Settings → Pages.
+3. Source: Deploy from a branch.
+4. Branch: main, Folder: /root.
+5. Save.
+6. Open the GitHub Pages URL.
 
-## Build
-```bash
-npm run build
-```
-
-## GitHub Pages
-1. Upload this project to a GitHub repository.
-2. Run:
-```bash
-npm install
-npm run build
-```
-3. In GitHub Pages, set source to GitHub Actions or deploy `dist`.
-4. Or use:
-```bash
-npm run deploy
-```
-
-## iPhone Install
-Open the GitHub Pages URL in Safari → Share → Add to Home Screen.
+## iPhone
+Open the URL in Safari → Share → Add to Home Screen.

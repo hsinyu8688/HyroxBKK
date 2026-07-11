@@ -1,13 +1,13 @@
-# HYROX Bangkok Guide - GitHub Pages with App Icon
+# HYROX Bangkok Guide v1
 
-Upload all files to your GitHub repository root:
+## GitHub Pages
+1. 將資料夾內所有檔案上傳到 GitHub repository 根目錄。
+2. GitHub → Settings → Pages。
+3. Source 選 Deploy from a branch。
+4. Branch 選 main，Folder 選 /(root)。
+5. Save。
 
-- index.html
-- manifest.json
-- icons/ folder
+## iPhone 安裝
+Safari 開啟 GitHub Pages 網址 → 分享 → 加入主畫面。
 
-Then publish with GitHub Pages:
-Settings → Pages → Deploy from a branch → main → /root.
-
-On iPhone:
-Open the GitHub Pages URL in Safari → Share → Add to Home Screen.
+若更新後看不到新 Icon，刪除舊捷徑後重新加入主畫面。

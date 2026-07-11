@@ -1,7 +1,6 @@
 {
   "name": "HYROX Bangkok Guide",
   "short_name": "HYROX BKK",
-  "description": "Travel • Race • Recover",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

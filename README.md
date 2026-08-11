@@ -1,18 +1,22 @@
-# HYROX Bangkok Guide v2.1.1 — Hotel Information Update
+# HYROX Bangkok Guide v2.1.5 — App Icon Fix
 
 更新內容：
-- Madi Paidi 英文地址、泰文名稱與泰文地址
-- Sindhorn Kempinski 英文地址、泰文名稱與泰文地址
-- 飯店 Google Maps 導航
-- 飯店電話按鈕
+- 沿用你喜歡的 icon.svg 設計
+- 產生 iPhone 用 apple-touch-icon.png
+- 產生 PWA 用 icon-192.png / icon-512.png
+- 更新 index.html
+- 更新 manifest.json
 - 更新 Service Worker 快取版本
 
-## 更新 GitHub
-
+## GitHub 更新
 ```powershell
 git add .
-git commit -m "Add bilingual hotel information"
+git commit -m "Fix app icon for iPhone PWA"
 git push origin main
 ```
 
-若手機仍顯示舊版，請刪除舊主畫面 App、清除 Safari 的 GitHub Pages 網站資料，再重新加入主畫面。
+## iPhone 仍顯示舊的 H icon
+1. 刪除主畫面舊 App。
+2. iPhone 設定 → Safari → 進階 → 網站資料，刪除你的 GitHub Pages 網站資料。
+3. 用 Safari 重新打開 GitHub Pages。
+4. 分享 → 加入主畫面。

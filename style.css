@@ -5,3 +5,20 @@ button,input{font:inherit}.app{max-width:540px;margin:auto;min-height:100vh;padd
 .card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:13px;margin-bottom:10px;box-shadow:var(--shadow)}.warn{background:#fff8e8}.event{display:grid;grid-template-columns:68px 1fr;gap:9px;padding:9px 0;border-bottom:1px solid #eee7df}.event:last-child{border-bottom:0}.time{font-size:12.5px;font-weight:950;color:var(--blue)}.event p,.card p{font-size:13px;color:var(--muted);margin:3px 0;line-height:1.45}.mapbtn{display:inline-flex;align-items:center;justify-content:center;margin-top:6px;width:30px;height:30px;border-radius:999px;background:#eef4ff;text-decoration:none}
 .tabs{display:flex;gap:8px;overflow:auto;margin-bottom:10px}.tabs button,.pill{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 12px;font-weight:900;white-space:nowrap}.tabs button.active,.pill.primary{background:var(--blue);color:#fff;border-color:var(--blue)}.foodGrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.foodGroup h3{color:var(--blue)}.phrase{border-bottom:1px solid #eee7df;padding:11px 0}.phrase .thai{font-size:17px;font-weight:900;margin-top:6px}.phrase strong{color:var(--blue);font-size:16px}.moreItem{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #eee7df}.moreItem button{border:0;background:transparent;font-weight:900}.check{display:flex;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid #eee7df}.check input{width:22px;height:22px}.cat{color:var(--blue);font-weight:950;margin:14px 0 4px}.stack input{width:100%;border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px}.expense{display:flex;justify-content:space-between}.budgetTotal{font-size:26px;font-weight:950;color:var(--green)}.progress{height:10px;background:#eee7df;border-radius:999px;overflow:hidden}.progress span{display:block;height:100%;background:var(--blue)}
 nav{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.95);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr)}nav button{border:0;background:transparent;padding:9px 4px 11px;font-size:10.5px;color:#7c8494;font-weight:850;display:flex;flex-direction:column;align-items:center}nav button.active{color:var(--blue)}nav .ico{font-size:21px}.page{display:none}.page.active{display:block}@media(max-width:390px){.foodGrid{grid-template-columns:1fr}.event{grid-template-columns:58px 1fr}}
+
+.storelink{display:inline-flex;text-decoration:none;margin:4px 6px 8px 0}.warn .pill.primary{display:inline-flex;text-decoration:none;margin-top:8px}
+
+.hotelInfo{padding:12px 0;border-bottom:1px solid #eee7df}
+.hotelInfo:last-child{border-bottom:0;padding-bottom:2px}
+.hotelInfo h3{margin:3px 0 6px;line-height:1.35}
+.hotelStay{display:inline-block;margin-bottom:4px;color:var(--blue);font-size:12px;font-weight:950}
+.hotelThaiName{color:#6f2c22!important;font-size:14px!important;font-weight:850}
+.hotelAddress{display:grid;grid-template-columns:24px 1fr;gap:6px;align-items:start;margin-top:8px}
+.hotelAddress p{margin:0!important;color:var(--text)!important;overflow-wrap:anywhere}
+.thaiAddress p{font-size:14px!important;line-height:1.55!important}
+.hotelActions{display:flex;flex-wrap:wrap;gap:8px;margin-top:11px}
+.hotelButton{display:inline-flex;text-decoration:none;align-items:center;justify-content:center}
+@media(max-width:390px){
+  .hotelActions{display:grid;grid-template-columns:1fr}
+  .hotelButton{width:100%}
+}

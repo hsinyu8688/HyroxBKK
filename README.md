@@ -1,9 +1,18 @@
-# HYROX Bangkok Guide v2.0 Final
+# HYROX Bangkok Guide v2.1.1 — Hotel Information Update
 
-1. 將資料夾內全部檔案上傳到 GitHub repository 根目錄。
-2. GitHub → Settings → Pages。
-3. Source：Deploy from a branch。
-4. Branch：main；Folder：/(root)。
-5. Save。
+更新內容：
+- Madi Paidi 英文地址、泰文名稱與泰文地址
+- Sindhorn Kempinski 英文地址、泰文名稱與泰文地址
+- 飯店 Google Maps 導航
+- 飯店電話按鈕
+- 更新 Service Worker 快取版本
 
-若更新後仍顯示舊版，請刪除舊主畫面 App、清除 Safari 該網站資料，再重新加入主畫面。
+## 更新 GitHub
+
+```powershell
+git add .
+git commit -m "Add bilingual hotel information"
+git push origin main
+```
+
+若手機仍顯示舊版，請刪除舊主畫面 App、清除 Safari 的 GitHub Pages 網站資料，再重新加入主畫面。
